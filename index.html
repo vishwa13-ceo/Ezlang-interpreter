@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EZLang Web Interpreter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>EZLang Web Interpreter</h1>
+  <div class="container">
+    <div>
+      <h3>Code Editor:</h3>
+      <textarea id="editor" placeholder="Enter your EZLang code here..."></textarea>
+    </div>
+    <button id="run-btn">Run Code</button>
+    <div>
+      <h3>Output:</h3>
+      <div id="output"></div>
+    </div>
+    <div class="examples">
+      <h3>Examples:</h3>
+      <button class="example-btn" data-example="hello">Hello World</button>
+      <button class="example-btn" data-example="variables">Variables</button>
+      <button class="example-btn" data-example="if">If Statement</button>
+      <button class="example-btn" data-example="math">Math Operations</button>
+    </div>
+  </div>
+  
+  <!-- Load the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
